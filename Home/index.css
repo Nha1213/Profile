@@ -1,0 +1,249 @@
+.controller{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    /* filter: blur(0.3px); */
+}
+
+.body{
+    background-color: rgba(219, 140, 219, 0.536);
+    padding: 2rem 2rem;
+}
+
+
+.From_profile{
+    background-color: rgba(219, 140, 219, 0.536);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.circle{
+    width: 200px;
+    margin: auto;
+}
+
+.circle img{
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgb(197, 91, 151);
+}
+
+.name{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0.5rem;
+}
+
+.skill{
+    text-align: center;
+    font-style: 1.2rem;
+    color: red;
+    font-weight: 500;
+}
+
+.icon_all p{
+    text-align: center;
+    color: rgb(215, 42, 169);
+    font-weight: bold;
+}
+
+.text-one{
+    text-align: center;
+}
+
+.text-one p{
+    font-size: 1.1rem;
+    color: rgb(115, 115, 115);
+    font-weight: 500;
+}
+
+.infor{
+    background-color: rgba(230, 110, 230, 0.536);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    /* filter: blur(0.3px); */
+}
+
+.infor p{
+    font-size: 1.2rem;
+    color: rgb(56, 55, 55);
+}
+
+.infor p span{
+    color: rgb(246, 0, 0);
+}
+
+.containTwo{
+      
+}
+
+.Bio_all{
+   background-color: rgba(219, 140, 219, 0.536);
+   padding: 2rem;
+   border-radius: 10px;
+}
+
+.Bio_all p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.Personality_all{
+    background-color:  rgba(219, 140, 219, 0.536);
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.Personality_all div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg{
+    width: 100%;
+    height: 12px;
+    background-color: rgb(215, 42, 169);
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 0rem 4rem;
+    margin-bottom: 1rem;
+}
+
+.backgb{
+    background-color: red;
+    width: 15px;
+    height: auto;
+}
+
+.bg1{
+    padding: 0rem 5rem;
+}
+
+.bg2{
+    padding: 0rem 8rem;
+}
+
+.bg3{
+    padding: 0rem 10rem;
+}
+
+.Goals{
+    background-color:  rgba(219, 140, 219, 0.536);
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.Goals ul{
+    padding: 1.5rem 2rem;
+}
+
+.containThree{
+    
+}
+
+.one{
+    background-color:  rgba(219, 140, 219, 0.536);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.one label{
+    margin-top: 1rem;
+}
+
+.big{
+    background-color:  rgb(215, 42, 169);
+    width: 100%;
+    height: 12px;
+    border-radius: 5px;
+}
+
+.sub{
+    background-color: red;
+    width: 50%;
+    height: 12px;
+    border-radius: 5px;
+}
+
+.H{
+    width: 98%;
+}
+
+.C{
+    width: 90%;
+}
+
+.J{
+    width: 80%;
+}
+
+.JQ{
+    width: 60%;
+}
+
+.R{
+    width: 40%;
+}
+
+.A{
+    width: 30%;
+}
+
+.N{
+    width: 20%;
+}
+
+.TWO{
+    background-color:  rgba(219, 140, 219, 0.536);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.TWO ul li{
+    color: rgb(54, 54, 54);
+}
+
+.TWO ul{
+    padding: 0.5rem 2rem;
+}
+
+@media screen and (max-width: 968px) {
+    .controller {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .controller {
+        grid-template-columns: 1fr;
+        padding: 0rem;
+        background-color: rgba(219, 140, 219, 0.536);
+    }
+    .From_profile{
+        background-color: rgba(219, 140, 219, 0.536);
+        border-radius: 10px;
+        padding: 2rem;
+        
+    }
+
+    .body{
+        background-color: rgba(219, 140, 219, 0.536);
+        padding: 2rem 0rem;
+    }
+    
+    
+    .From_profile{
+        background-color: rgba(219, 140, 219, 0.536);
+        border-radius: 10px;
+        padding: 0rem;
+    }
+}
